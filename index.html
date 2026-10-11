@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conversor</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main class="card">
+        <h1>Conversor de Unidade</h1>
+
+        <label for="unidade">Escolha uma unidade:</label>
+        <select id="unidade" name="unidade">
+            <option value="Distancia">Distancia</option>
+        </select>
+
+        <form>
+            <label for="valor">Valor: </label>
+            <input type="number" name="número" id="valor"/>
+
+            <div class="linha">
+                <div>
+                <label for="unidadeOrigem" id="de">De: </label>
+                    <select id="unidadeOrigem" name="opção">
+                        <option value="km">KM</option>
+                        <option value="m">M</option>
+                        <option value="milha">Milha</option>
+                    </select>
+                </div>
+
+                <button type="button" id="inverter">&#8644;</button>
+                
+                <div>
+                    <label for="unidadeDestino" id="para">Para: </label>
+                    <select id="unidadeDestino" name="opção">
+                        <option value="m">M</option>
+                        <option value="km">KM</option>
+                        <option value="milha">Milha</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+
+        <p id="resultados"></p>
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
