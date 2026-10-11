@@ -4,7 +4,7 @@ Um conversor de unidades simples feito com HTML, CSS e JavaScript puro. Você di
 
 ## Demonstração
 
-> Link do GitHub Pages (adicione aqui depois de publicar): `https://SEU-USUARIO.github.io/conversor-de-unidades/`
+> Link do GitHub Pages (adicione aqui depois de publicar): `https://magofino.github.io/conversor-de-unidades/`
 
 ## Funcionalidades
 
@@ -50,8 +50,8 @@ resultado = valor × fator da origem ÷ fator do destino
 
 ## Próximas melhorias
 
-- [ ] Adicionar mais unidades de distância (cm, pé, jarda)
-- [ ] Tratar o campo vazio
+- [x] Adicionar mais unidades de distância (cm, pé, jarda)
+- [x] Tratar o campo vazio
 - [ ] Adicionar a categoria peso
 - [ ] Adicionar a categoria temperatura
 - [ ] Efeito hover nos botões
