@@ -4,7 +4,7 @@ Um conversor de unidades simples feito com HTML, CSS e JavaScript puro. Você di
 
 ## Demonstração
 
-> Link do GitHub Pages (adicione aqui depois de publicar): `https://magofino.github.io/conversor-de-unidades/`
+> Link do GitHub: `https://magofino.github.io/conversor-de-unidades/`
 
 ## Funcionalidades
 
