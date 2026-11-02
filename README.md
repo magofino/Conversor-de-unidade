@@ -23,7 +23,7 @@ Um conversor de unidades simples feito com HTML, CSS e JavaScript puro. Você di
 
 1. Baixe ou clone o repositório:
    ```bash
-   git clone https://github.com/magofino/conversor-de-unidades.git
+   git clone https://github.com/magofino/Conversor-de-unidades.git
    ```
 2. Abra o arquivo `index.html` no navegador.
 
@@ -32,12 +32,15 @@ Não precisa instalar nada.
 ## Estrutura do projeto
 
 ```
-conversor-de-unidades/
+Conversor-de-unidade/
 ├── index.html
-├── script.js
+├── README.md
 ├── css/
 │   └── style.css
-└── README.md
+└── js/
+    ├── main.js
+    ├── conversor.js
+    └── unidades.js
 ```
 
 ## Como funciona
